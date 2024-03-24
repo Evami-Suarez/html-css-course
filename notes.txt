@@ -1,0 +1,12 @@
+Link to the tutorial https://www.youtube.com/watch?v=G3e-cpL7ofc&ab_channel=SuperSimpleDev
+
+- every element have their own attributes
+- attributes modifiest how the element behaves
+- In html extra spaces are ignored
+- rgb in css is how much red, green and blue in our color, 
+- 255 is the maximum value of rgb
+- rgb(255.255.255) white
+- rgb(0.0.0) black
+- psuedo-class add extrastyles to the element in certain situation
+
+
