@@ -1,5 +1,11 @@
 Link to the tutorial https://www.youtube.com/watch?v=G3e-cpL7ofc&ab_channel=SuperSimpleDev
 
+lesson 1: html basic
+lesson 2: css basics
+lesson 3: Hovers, Transitions, shadows
+Lesson 4: Chrome DevTools & Css Box Model
+Lesson 5: Text Styles
+
 - every element have their own attributes
 - attributes modifiest how the element behaves
 - In html extra spaces are ignored
@@ -8,5 +14,6 @@ Link to the tutorial https://www.youtube.com/watch?v=G3e-cpL7ofc&ab_channel=Supe
 - rgb(255.255.255) white
 - rgb(0.0.0) black
 - psuedo-class add extrastyles to the element in certain situation
-
+- hex is another way to measure color eg. #f25d6g first 2 digit is how much red, 3rd and 4th tells us how much green and the last 2 is how much blue
+- height and width forces the element to have that measurement so its not a good idea, padding is the good idea 
 
