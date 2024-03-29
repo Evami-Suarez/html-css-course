@@ -5,6 +5,7 @@ lesson 2: css basics
 lesson 3: Hovers, Transitions, shadows
 Lesson 4: Chrome DevTools & Css Box Model
 Lesson 5: Text Styles
+Lesson 6: Proper html Structure
 
 - every element have their own attributes
 - attributes modifiest how the element behaves
@@ -16,4 +17,4 @@ Lesson 5: Text Styles
 - psuedo-class add extrastyles to the element in certain situation
 - hex is another way to measure color eg. #f25d6g first 2 digit is how much red, 3rd and 4th tells us how much green and the last 2 is how much blue
 - height and width forces the element to have that measurement so its not a good idea, padding is the good idea 
-
+- void element doesn't need closing tag like <link>
