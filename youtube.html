@@ -3,23 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube.com</title>
+    <title>Document</title>
     <style>
-        .thumbnail {
+        .thumbnails {
             width: 300px;
-            /* object-fit: contain;
-            object-position: top; */
-
+            display: block;
         }
+        /* this will make the elements take the space their needed to */
+        /* .video-views, .video-author {
+            display: inline-block;
+        } */
         .search-bar {
-            font-size: 30px;
-            margin-left: 10px;
+            display: block;
+        }
+        .video-preview {
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
         }
     </style>
 </head>
 <body>
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
-    <input class="search-bar" type="text" placeholder="Search" id="">    
+    <input class="search-bar" type="text" placeholder="search">
+    <div class="video-preview">
+        <img class="thumbnails" src="./thumbnails/thumbnail-1.webp">
+        <p class="video-title">
+            Talking Tech and AI with google CEO Sunder Pichai!
+        </p>
+        <p class="video-author">
+            Marques Brownlee
+        </p>
+        <p class="video-views">
+            3.4M views &#183; 6 months ago
+        </p>
+    </div>
+    <div class="video-preview">
+        <img class="thumbnails" src="./thumbnails/thumbnail-2.webp" alt="">
+        <p class="video-title">
+            Try Not To Laugh Challenge #9        </p>
+        <p class="video-author">
+            Markiplier
+        </p>
+        <p class="video-views">
+            19M views &#183; 4 years ago
+        </p>
+    </div>
 </body>
-
 </html>

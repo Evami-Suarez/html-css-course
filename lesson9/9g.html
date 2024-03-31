@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            margin: 0px;
+        }
+        .container {
+            
+            overflow: hidden;
+            box-shadow: 1px 1px 4px rgba(163, 163, 163, 0.598);
+            width: 160px; 
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .cat-img, .goat-img, .dog-img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            object-position: right;
+        }
+        .add-friend-bttn:active{
+            opacity: 0.7;
+        }
+
+        .cat-img {
+            object-fit: cover;
+            object-position: right;
+        }
+        .goat-img {
+            object-fit: cover;
+            object-position: center;
+        }
+        .dog-img {
+            object-fit: cover;
+            object-position: center;
+        }
+
+        p, button {
+            padding-left: 10px;
+        }
+        .name {
+            font-family: Arial;
+            font-weight: bold;
+            margin-top: 6px;
+            font-size: 14px;
+        }
+        .mutual-count {
+            font-size: 13px;
+            font-family: Arial;
+            color: rgb(90, 88, 88);
+            padding: 5px 10px 10px 10px;
+        }
+        .add-friend-bttn {
+            background-color: rgb(55, 111, 252);
+            border: none;
+            color: white;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            padding: 8px 14px 8px 14px;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <img class="cat-img" src="../thumbnails/funny-cats-147-01.jpg.crdownload" alt="cat">
+        <p class="name">
+            Oliver
+        </p>
+        <p class="mutual-count">
+            2 mutual friends
+        </p>
+        <button class="add-friend-bttn">
+            Add Friend
+        </button>
+    </div>
+    <div class="container">
+        <img class="goat-img" src="../thumbnails/Funny-Goat-Names.jpg">
+        <p class="name">
+            Mimi
+        </p>
+        <p class="mutual-count">
+            3 mutual friends
+        </p>
+        <button class="add-friend-bttn">
+            Add Friend
+        </button>
+    </div>
+    <div class="container">
+        <img class="dog-img" src="../thumbnails/Dogs 00182.jpg">
+        <p class="name">
+            Rex
+        </p>
+        <p class="mutual-count">
+            4 mutual friends
+        </p>
+        <button class="add-friend-bttn">
+            Add Friend
+        </button>
+    </div>
+</body>
+</html>
