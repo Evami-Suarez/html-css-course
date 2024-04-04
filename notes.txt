@@ -9,6 +9,8 @@ Lesson 6: Proper html Structure
 lesson 7: images and text boxes
 lesson 8: CSS Display Property
 lesson 9: The <div> Element
+lesson 10: Nested Layouts Technique
+lesson 11: CSS Grid
 
 - every element have their own attributes
 - attributes modifiest how the element behaves
@@ -26,4 +28,5 @@ lesson 9: The <div> Element
 - 3. inline element appear within a line of text
 - these are the basic types of html element
 - div is a block element, div is meant to be container
-
+- div can use text-align:center but but if an element inside div is set Display: block it-cannot be centered as the element takes up the intire line.  
+- 2 types of layout vertical layout and horizontal layouts 
